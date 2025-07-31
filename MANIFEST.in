@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include sp_database_mcp *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+exclude .env
+exclude .env.*
+exclude test_*.py
+exclude debug_*.py

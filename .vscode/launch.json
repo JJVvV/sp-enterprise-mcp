@@ -1,0 +1,106 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: 测试搜索表详情",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/manual/test_business_search.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [],
+      "stopOnEntry": false,
+      "justMyCode": false,
+      "python": "${workspaceFolder}/.venv/bin/python"
+    },
+    {
+      "name": "Debug: Metabase MCP 测试",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/integration/test_metabase_mcp.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [],
+      "stopOnEntry": false,
+      "justMyCode": true
+    },
+    {
+      "name": "Debug: Metabase 连接测试",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/integration/test_metabase.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [],
+      "stopOnEntry": false,
+      "justMyCode": true
+    },
+    {
+      "name": "Debug: Schema 查询功能",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/integration/test_schema_query.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [],
+      "stopOnEntry": false,
+      "justMyCode": false,
+      "python": "${workspaceFolder}/.venv/bin/python"
+    },
+    {
+      "name": "Debug: Schema 查询调试",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/debug/debug_schema_query.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [],
+      "stopOnEntry": false,
+      "justMyCode": false,
+      "python": "${workspaceFolder}/.venv/bin/python"
+    },
+    {
+      "name": "Debug: MCP 服务器",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/sp_database_mcp/server.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [],
+      "stopOnEntry": false,
+      "justMyCode": true
+    },
+    {
+      "name": "Debug: 搜索特定关键词",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/debug/debug_search.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [],
+      "stopOnEntry": false,
+      "justMyCode": true
+    }
+  ]
+}

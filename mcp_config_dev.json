@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "sp-database-mcp-dev": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/alexliu/Project/sp-database-mcp",
+        "run",
+        "python",
+        "-m",
+        "sp_database_mcp.server"
+      ],
+      "env": {
+        "DATABASE_URL": "postgresql://postgres:Zzh!%407465671@172.16.5.66:5432/metabase"
+      }
+    }
+  }
+}
