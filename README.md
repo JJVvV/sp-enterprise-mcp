@@ -2,6 +2,10 @@
 
 一个用于实时获取数据库表结构信息的 Model Context Protocol (MCP) 服务器。通过 MCP 协议，可以让 AI 助手实时获取数据库的表结构信息，解决信息不及时更新的问题。
 
+<a href="https://glama.ai/mcp/servers/@JJVvV/sp-enterprise-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@JJVvV/sp-enterprise-mcp/badge" alt="SP Database Server MCP server" />
+</a>
+
 ![alt text](imgs/image.png)
 
 ## 功能特性
@@ -197,4 +201,3 @@ uv run isort .
 # 类型检查
 uv run mypy .
 ```
-
